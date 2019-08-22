@@ -1,0 +1,23 @@
+{
+  "name": "non-module-bundler-plugin",
+  "version": "1.0.0",
+  "description": "Pack all input js files into one without webpack module bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hdtung88/non-module-bundler-plugin.git"
+  },
+  "author": "tunghd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdtung88/non-module-bundler-plugin/issues"
+  },
+  "homepage": "https://github.com/hdtung88/non-module-bundler-plugin#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
