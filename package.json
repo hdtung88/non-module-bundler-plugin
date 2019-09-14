@@ -1,6 +1,6 @@
 {
   "name": "non-module-bundler-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Pack all input js files into one without webpack module bundler",
   "main": "index.js",
   "scripts": {
