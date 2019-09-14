@@ -5,7 +5,6 @@ const _ = require('lodash');
 const path = require('path');
 const fs = require('fs');
 const fsReadFileAsync = promisify(fs.readFile);
-const UglifyJS = require("uglify-js");
 
 class NonModuleBundlerPlugin {
 
@@ -49,8 +48,6 @@ class NonModuleBundlerPlugin {
                     for (let k = 0; k < results.length; k++) {
                         outputContent += String(results[k]) + '\n\n';
                     }
-
-                    UglifyJS.minify(outputContent);
 
                     compilation.assets[outputFileName] = {
                         source: () => outputContent,

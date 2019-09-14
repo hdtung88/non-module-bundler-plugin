@@ -20,7 +20,5 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
   },
-  "dependencies": {
-    "uglify-js": "^3.6.0"
-  }
+  "dependencies": {}
 }
