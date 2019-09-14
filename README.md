@@ -1,5 +1,5 @@
 <h1>Non Module Bundler Plugin</h1>
-<p>This plugin will simply merge all your input js files into a single one. Sorry, no obfuscate or minify, etc .. supported yet</p>
+<p>This plugin will simply merge all your input js files into a single one.</p>
 <h2 align="center">Install</h2>
 
 ```bash
