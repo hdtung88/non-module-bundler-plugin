@@ -20,7 +20,8 @@ module.exports = {
   entry: 'index.js',
   output: {
     path: __dirname + '/dist',
-    filename: 'index.js'
+    filename: 'index.js',
+    compress: false
   },
   plugins: [
     new NonModuleBundlerPlugin({
@@ -37,7 +38,8 @@ module.exports = {
 }
 ```
 
-This will generate a file named `libs.js` in your build folder `dist` containing merged code of all your script files above
+This will generate a file named `libs.js` in your build folder `dist` containing merged code of all your script files above.
+Set the option 'compress' to 'true' to compress and minify the result, by defaults it's 'false';
 
 
 <br>
